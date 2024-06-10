@@ -2,19 +2,6 @@ Require Import Coq.Lists.List.
 Require Import Coq.Arith.Arith.
 Require Import Lia. 
 Require Import Lra.
-
-(*Record graph := {
-  V : Set;
-  edges : V -> V -> bool
-  }.
-  
-Require Import Coq.Vectors.Fin.
-  
-Definition ex : graph := {| V := t 3; edges := fun u => fun v => 
-  match u , v with
-  | F1, FS F1 | FS F1, F1 => true
-  | _,_ => false
-  end  |}. *)
   
 Module ListNotations.
 Notation "[ ]" := nil (format "[ ]") : list_scope.
